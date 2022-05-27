@@ -6,3 +6,5 @@ Timeline program for KC
 - **Adding Data** - Open kc_data.json and add your data in the same format. Becare of the apostrophes: "" and ''. DO NOT DELETE THE BRACKETS: [] or {}
 - **Change Graph Title** - open kc_paramfile.py and just change the value `chart_title = 'KC'` to `chart_title = 'WHATEVER YOU WANT'`
 
+## Build Instructions
+Built using pyinstaller. Make sure to include 'kc_data.json' and 'kc_paramfile.py' along with the release.
